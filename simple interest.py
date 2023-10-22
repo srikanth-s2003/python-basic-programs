@@ -1,4 +1,4 @@
-rint("the rate of interest \n")
+print("the rate of interest \n")
 
 p=int(input("Enter the principal amount (p): "))
 t=int(input("Enter the tenure of interest (t): "))
