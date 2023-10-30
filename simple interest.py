@@ -1,9 +1,8 @@
-print("the rate of interest \n")
+def simpleInterest(p, t, t):
+  return (p*t*r)//100
 
-p=int(input("Enter the principal amount (p): "))
-t=int(input("Enter the tenure of interest (t): "))
-r=int(input("Enter the rate of interest (r) : "))
-
-print("the rate of interest is ",(p*t*r)//100)
-
-
+p = int(input("Enter the principle amount:"))
+t = int(input("Enter duration/time:"))
+r = int(input("Enter rate of return:"))
+SI = simpleInterest(p, t, r)
+print('SIMPLE INTEREST :',SI)
